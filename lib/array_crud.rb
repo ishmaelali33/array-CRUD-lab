@@ -1,35 +1,59 @@
-def create_an_empty_array
+def animal_wild
+  []
+end
+
+def animal_wild
+    ["ant", "bat", "cat", "dog"]
+end
+
+def animal_wild = ["ant", "bat", "cat", "dog"]
+
+    animal_wild << "wolf"
+
+    puts animal_wild.inspect
   
 end
 
-def create_an_array
+def animal_wild = ["ant", "bat", "cat", "dog"]
+
+    animal_wild.unshift("monkey")
+
+    puts animal_wild.inspect
   
 end
 
-def add_element_to_end_of_array(array, element)
+def animal_wild = ["ant", "bat", "cat", "dog"]
+    dog_animal = animal_wild.pop
+
+    puts animal_wild.inspect
+
+    puts dog_animal
   
 end
 
-def add_element_to_start_of_array(array, element)
+def animal_wild = ["ant", "bat", "cat", "dog"]
+ant_animal = animal_wild.shift
+
+puts animal_wild.inspect
+
+puts ant_animal
   
 end
 
-def remove_element_from_end_of_array(array)
+def animal_wild = ["ant", "bat", "cat", "dog"]
+
+animal_wild[1]
   
 end
 
-def remove_element_from_start_of_array(array)
+def animal_wild = ["ant", "bat", "cat", "dog"]
+
+animal_wild.first
   
 end
 
-def retrieve_element_from_index(array, index_number)
-  
-end
+def animal_wild = ["ant", "bat", "cat", "dog"]
 
-def retrieve_first_element_from_array(array)
-  
-end
-
-def retrieve_last_element_from_array(array)
+animal_wild.last
   
 end
